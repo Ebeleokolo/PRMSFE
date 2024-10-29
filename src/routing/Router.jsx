@@ -28,7 +28,7 @@ export default function Router() {
         <Routes>
             <Route path="/" element={<Index />} />
 
-            <Route path="/login" element={<RegularLogin />} />
+            {/* <Route path="/login" element={<RegularLogin />} /> */}
             <Route path="/signup" element={<Register />} />
             <Route path="/admin-login" element={<AdminLogin />} />
             <Route path="/admin-signup" element={<AdminSignUp />} />
