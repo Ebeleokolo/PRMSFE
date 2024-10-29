@@ -14,7 +14,7 @@ import RegularLogin from "../pages/auth/RegularLogin";
 import CreatePatient from "../pages/dashboard/CreatePatient";
 import CreateAppointment from "../pages/dashboard/CreateAppointment";
 import ViewPatient from "../pages/admin/ViewPatient";
-import DashBoardPage from "../pages/dashboard/dashBoardPage";
+import DashBoardPage from "../pages/dashboard/DashBoardPage";
 import GetMedical from "../pages/dashboard/GetMedical";
 import FindDoctors from "../pages/dashboard/FindDoctors";
 import PhysicianDetails from "../pages/dashboard/PhysicianDetails";
