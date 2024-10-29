@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Register from "../pages/auth/Register";
 import AdminLogin from "../pages/auth/AdminLogin";
@@ -23,8 +23,10 @@ import AdminDashboard from "../pages/admin/Index";
 import Appointments from "../pages/admin/Appointments";
 import Appointment from "../pages/dashboard/Appointment";
 
-export default function Router() {
+
+export default function RouterFile() {
     return (
+
         <Routes>
             <Route path="/" element={<Index />} />
 
